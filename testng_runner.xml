@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VyTrack Automation Tests" verbose="2">
+
+    <test name="Automated Login Test">
+
+        <classes>
+            <class name="com.vytrack.tests.tempFiles.LoginTest">
+                <methods>
+                    <include name="positiveLoginTest2"></include>
+                </methods>
+            </class>
+
+            <class name="com.vytrack.tests.tempFiles.InvalidLoginTest">
+                <methods>
+                    <exclude name="invalidUsernameTest2"></exclude>
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>

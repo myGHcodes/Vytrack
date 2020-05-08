@@ -1,0 +1,8 @@
+.idea
+*.iml
+target
+bin
+.classpath
+.settings
+.DS_Store
+test-output

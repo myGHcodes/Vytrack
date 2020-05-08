@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests" verbose="2">
+
+    <test name="Automate only packages">
+        <packages>
+            <package name="com.vytrack.tests"></package>
+        </packages>
+    </test>
+
+
+</suite>
+
+        <!-- <package name=".*"> (.*) - this command will run every packages
+              verbose="2" - means how much info(details) I will get from console-->
